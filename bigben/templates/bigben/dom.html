@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        h = document.getElementById('head')
+        console.log(h)
+
+        p = document.getElementsByClassName('content')
+        console.log(p)
+        
+        ul = document.getElementsByTagName('ul')
+        console.log(ul)
+        
+        function change(){
+            document.getElementById('head').innerHTML="Chris Hamswerth";
+        }
+
+       
+
+    </script>
+</head>
+
+<body>
+    <h2 id="head">Man from Earth</h2>    
+
+    <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quod quibusdam autem? Ad atque at, eum dolore sed
+        magnam quibusdam provident facere velit, nihil maiores cupiditate tempore iusto, eligendi qui? Autem voluptatum,
+        alias veniam voluptates dolorum aliquam atque, natus sint quasi animi nostrum molestiae praesentium. Earum nobis
+        tenetur minus at.</p>
+
+
+    <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non numquam officia, ad tempora quaerat
+        delectus, sapiente, excepturi illo voluptas eveniet. Et sit dignissimos ab omnis explicabo autem consequatur
+        nemo quidem pariatur provident delectus quisquam amet, accusantium iusto corporis totam asperiores laboriosam
+        laudantium nostrum id aut. Deleniti molestiae corporis expedita laudantium nesciunt fugit nostrum deserunt
+        quaerat vitae libero accusamus, a, minus voluptatem voluptatum incidunt consectetur. Dolorum, nemo. Consequatur
+        odio reprehenderit inventore dolorem incidunt illo reiciendis adipisci minima, soluta maiores! Qui!</p>
+
+        <ul>
+            <li>aa</li>
+            <li>bbb</li>
+            <li>cccc</li>
+            <li>ddddd</li>
+        </ul>
+
+        <button onclick="change()">
+            click me
+        </button>
+        
+</body>
+
+</html>

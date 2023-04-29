@@ -1,0 +1,24 @@
+.bar{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#name1{
+    color: rgb(253, 111, 16);
+    font-family:sans-serif
+}
+.phone{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    color: green;
+}
+div .ss{
+    text-align: center;
+
+}
+.nav-bg{
+    background-color: rgb(19, 71, 241);
+    position: sticky;
+    top:0;
+}

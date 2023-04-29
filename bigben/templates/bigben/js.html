@@ -1,0 +1,128 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{% static 'js/new.js' %}"></script>
+    <script>
+        // document.write('every budy')
+    </script>
+</head>
+
+<body>
+    <button onclick="alert('this is alert..')">
+        click here
+    </button>
+    <br>
+    <button onclick="alert_fun()">
+        click here
+    </button>
+    <br>
+    <button onclick="confirm_fun()">
+        confirm
+    </button>
+    <br>
+    <button onclick="prompt('enter a numer','2255')">
+        click here
+    </button>
+
+
+
+
+
+    <script>
+        document.write('hello')
+    </script>
+
+
+    <script>
+        document.write('every budy')
+        var studentid = 122
+        var name = 'mrudhul'
+        var marks = [53, 50, 60]
+        var student = { name: 'mrudhul', age: '23' }
+
+        console.log(studentid)
+        console.log(name)
+        console.log(marks)
+        console.log(student)
+
+        console.log(typeof (studentid))
+        console.log(typeof (name))
+        console.log(typeof (marks))
+        console.log(typeof (student))
+        console.log(marks[1])
+        console.log(typeof (marks[1]))
+
+        console.log('my name is ' + name + 'and id is' + studentid)
+
+        var num1 =53
+        var num2 =50
+        var result =num1 + num2
+
+        console.log(result)
+        console.log('sum is ' + result)
+
+        function add(a,b){
+           var sum = a + b
+           
+           return sum
+           console.log('')
+        }
+        
+        var s = add(50,60)
+        console.log(s) 
+
+    //    console.log(sum)
+    //    console.log(a)
+       console.log(name)
+
+        
+       function alert_fun(){
+        alert('this is an alert')
+
+       }
+
+       function confirm_fun(){
+         confirm('are you sure to delete')
+       }
+
+    </script>
+
+    <script>
+        console.log('assignment opraters')
+        x=10
+        y=22
+        // console.log(x)
+        // console.log(x+=10)
+        // console.log(x-=10)
+        // console.log(x*=10)
+        // console.log(x/=10)
+        // console.log(x**=10)
+        // console.log(y%=10)
+        // console.log("\n") 
+        // console.log('comparition opraters')
+        
+        console.log(x, y)
+        console.log(x == 10)
+        console.log(x == y)
+        console.log(x!=y)
+        console.log(x!=10)
+        console.log(x>=0)
+        console.log(x<10)
+        console.log(x<=10)
+        console.log(y>=10)
+        console.log(x==='10')
+        console.log(x!=='10')
+        console.log(x<25 && x>5)
+        console.log(y<20 || y>10)
+    </script>
+
+
+</body>
+
+</html>

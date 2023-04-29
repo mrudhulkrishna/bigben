@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+    </script>
+</head>
+
+<body>
+    <label for="">select color</label>
+    <select name="color" id="color" onchange="changeColor()">
+        <option value="green">green</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+    </select>
+    <br><br>
+    <label for="">display color</label>
+    <div id="nom" style="height: 100px; width: 100px;"></div>
+
+    <!-- <script>
+        function changeColor(event){
+          var color = event.value
+          document.getElementById('nom').style.backgroundColor=color
+        }
+    </script> -->
+
+    <!-- <script>
+       function changeColor() {
+       document.getElementById('nom').style.backgroundColor= document.getElementById('color').value
+       }
+     
+
+    </script> -->
+
+    <!-- <script>
+        function changeColor() {
+         var color = document.getElementById('color').value
+
+            if (color == "green") {
+                document.getElementById('nom').style.backgroundColor = 'green'
+            }
+            else if (color == "red") {
+                document.getElementById('nom').style.backgroundColor = 'red'
+            }
+            else if (color == "blue") {
+                document.getElementById('nom').style.backgroundColor = 'blue'
+            }
+
+        }
+
+    </script> -->
+<!-- 
+    <script>
+
+      let n = Number(prompt('enter a number'))
+      for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            document.write('*')
+        }
+        document.write('<br>')
+      }
+
+
+
+    </script> -->
+
+    <script>
+       
+    
+    for(i=0;i<4;i++){
+        let f_name=prompt('enter first name')
+        let l_name=prompt('enter last name')
+        console.log(f_name + ' ' + l_name)
+        // console.log('\n')
+    }
+    </script>
+
+</body>
+
+</html>

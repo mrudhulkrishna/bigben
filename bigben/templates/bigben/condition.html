@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="">
+  <!-- <script src="{% static 'js/condition.js' %} "></script> -->
+  <script src="{% static 'js/hm.js' %} "></script>
+</head>
+
+<body>
+  <h1>condition & loops</h1>
+
+  <h1>html events</h1>
+
+  <input type="button" value="click here" onclick="clickEvent()">
+  
+  <p onmouseover="mouseOverEvent()">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, ipsa explicabo laudantium quos impedit corporis
+    alias? Aut fuga porro eum?
+  </p>
+
+  <input type="text" value="hallo" onchange="onChangeEvent(this.value)">
+
+
+  <script>
+    function clickEvent() {
+      document.write('clicked')
+    }
+
+    function mouseOverEvent() {
+      // document.write('mouseoverevent')
+    }
+
+    function onChangeEvent(val){
+      alert('inputt value as changed  ' + val)
+    }
+  </script>
+
+  <!-- <script>
+      var marks = [10,20,30,40,50]
+      document.write(marks, '<br>')
+      document.write(typeof(marks),'<br>')
+      console.log(marks[0])
+      console.log(marks[1])
+      console.log(marks[3])
+      console.log(marks[4])
+      console.log(marks[5])
+
+      var fruits = ['banana','apple','apricot']
+      document.write(fruits,'<br>')
+      document.write(typeof(fruits),'<br>')
+
+      var student ={
+         name: 'chris',
+         age :23,
+         gender :'male'
+         
+      }
+      console.log(student)
+      console.log(student['age'])
+      console.log(student.name)
+       
+      
+      for (key in student){
+        console.log(key + ' is ' + student[key])
+
+      }
+
+      console.log('\n')
+      
+      for(item of marks){
+        console.log(item)
+      }
+
+    </script> -->
+</body>
+
+</html>
